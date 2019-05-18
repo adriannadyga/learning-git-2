@@ -28,6 +28,10 @@
         } 
         .second-verse {
             @extend .verse;
+        }
+        .third-verse {
+            @extend .verse;
+            font-style: italic;
         }   
     }
     .polish {
@@ -38,6 +42,10 @@
         }
         .second-verse {
             @extend .verse;
+        }
+        .third-verse {
+            @extend .verse;
+            font-style: italic;
         }
     }
 }

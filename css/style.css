@@ -4,7 +4,7 @@
   border: 2px solid green;
   padding: 20px; }
 
-.verse, .container .english .first-verse, .container .english .second-verse, .container .polish .first-verse, .container .polish .second-verse {
+.verse, .container .english .first-verse, .container .english .second-verse, .container .english .third-verse, .container .polish .first-verse, .container .polish .second-verse, .container .polish .third-verse {
   padding: 30px;
   border: 2px solid orange; }
 
@@ -19,7 +19,11 @@
     border: 1px solid red; }
   .container .english .first-verse {
     font-style: italic; }
+  .container .english .third-verse {
+    font-style: italic; }
   .container .polish .first-verse {
+    font-style: italic; }
+  .container .polish .third-verse {
     font-style: italic; }
 
 /*# sourceMappingURL=style.css.map */

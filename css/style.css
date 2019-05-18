@@ -1,23 +1,25 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  border: 3px solid black;
-  padding: 10px; }
-
-.container .header {
-  flex: 100%;
-  text-align: center;
-  border: 1px solid red; }
-
-.container .english,
-.container .polish {
+.text, .container .english, .container .polish {
   flex: 2;
   text-align: center;
   border: 2px solid green;
   padding: 20px; }
 
-.container .first-verse {
+.verse, .container .english .first-verse, .container .english .second-verse, .container .polish .first-verse, .container .polish .second-verse {
   padding: 30px;
   border: 2px solid orange; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  padding: 10px; }
+  .container .header {
+    flex: 100%;
+    text-align: center;
+    border: 1px solid red; }
+  .container .english .first-verse {
+    font-style: italic; }
+  .container .polish .first-verse {
+    font-style: italic; }
 
 /*# sourceMappingURL=style.css.map */

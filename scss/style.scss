@@ -1,25 +1,43 @@
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    border: 3px solid black;
-    padding: 10px;
-}
-
-.container .header {
-    flex: 100%;
-    text-align: center;
-    border: 1px solid red;
-}
-
-.container .english,
-.container .polish {
+.text {
     flex: 2;
     text-align: center;
     border: 2px solid green;
     padding: 20px;
 }
 
-.container .first-verse {
+.verse {
     padding: 30px;
-    border: 2px solid orange;
+    border: 2px solid orange;    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    padding: 10px;
+    .header {
+        flex: 100%;
+        text-align: center;
+        border: 1px solid red;
+    }
+    .english {
+        @extend .text;
+        .first-verse {
+            @extend .verse;
+            font-style: italic;
+        } 
+        .second-verse {
+            @extend .verse;
+        }   
+    }
+    .polish {
+        @extend .text;
+        .first-verse {
+            @extend .verse;
+            font-style: italic;
+        }
+        .second-verse {
+            @extend .verse;
+        }
+    }
 }

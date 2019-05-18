@@ -1,22 +1,21 @@
 .text, .container .english, .container .polish {
   flex: 2;
   text-align: center;
-  border: 2px solid green;
-  padding: 20px; }
+  padding: 5px;
+  font-family: 'Baloo Bhai', cursive; }
 
 .verse, .container .english .first-verse, .container .english .second-verse, .container .english .third-verse, .container .polish .first-verse, .container .polish .second-verse, .container .polish .third-verse {
   padding: 30px;
-  border: 2px solid orange; }
+  border: 2px solid orange;
+  height: 200px; }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  border: 3px solid black;
   padding: 10px; }
   .container .header {
     flex: 100%;
-    text-align: center;
-    border: 1px solid red; }
+    text-align: center; }
   .container .english .first-verse {
     font-style: italic; }
   .container .english .third-verse {
@@ -25,5 +24,11 @@
     font-style: italic; }
   .container .polish .third-verse {
     font-style: italic; }
+  .container .film {
+    flex: 100%;
+    text-align: center; }
+  .container .footer {
+    flex: 100%;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

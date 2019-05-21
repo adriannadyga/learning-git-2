@@ -1,0 +1,47 @@
+.text, .container .english, .container .polish {
+  -ms-flex: 2;
+      flex: 2;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 20px; }
+
+.verse, .container .english .first-verse, .container .english .second-verse, .container .english .third-verse, .container .polish .first-verse, .container .polish .second-verse, .container .polish .third-verse {
+  padding: 30px; }
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+  color: #add8e6;
+  background: linear-gradient(to bottom, #03178a, #a0220c, black); }
+  .container .header {
+    -ms-flex: 100%;
+        flex: 100%;
+    text-align: center; }
+    .container .header h1 {
+      font-size: 60px; }
+    .container .header h3 {
+      font-size: 40px; }
+  .container .english .first-verse {
+    font-style: italic; }
+  .container .english .third-verse {
+    font-style: italic; }
+  .container .polish .first-verse {
+    font-style: italic; }
+  .container .polish .third-verse {
+    font-style: italic; }
+  .container .film {
+    -ms-flex: 100%;
+        flex: 100%;
+    text-align: center;
+    padding: 15px; }
+  .container .footer {
+    -ms-flex: 100%;
+        flex: 100%;
+    text-align: center;
+    background-color: #000; }
+
+/*# sourceMappingURL=style.prefixed.css.map */
